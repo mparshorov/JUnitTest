@@ -39,5 +39,8 @@ public class MyFirstJUnit {
 		}
 		return counter;
 	}
+	public static void main(String[] args) throws IOException{
+		readFile("petkov.txt");
+	}
 
 }
